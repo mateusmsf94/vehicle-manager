@@ -1,5 +1,5 @@
-import ICar from "../Interfaces/ICar";
-import CarODM from "../Models/CarODM";
+import ICar from '../Interfaces/ICar';
+import CarODM from '../Models/CarODM';
 
 class CarService {
   public async create(car: ICar): Promise<ICar> {

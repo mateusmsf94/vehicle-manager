@@ -1,5 +1,5 @@
-import ICar from "../Interfaces/ICar";
-import Automobile from "./Automobile";
+import ICar from '../Interfaces/ICar';
+import Automobile from './Automobile';
 
 export default class Car extends Automobile {
   private doorsQty: number;

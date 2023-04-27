@@ -12,7 +12,7 @@ export default abstract class Automobile {
     year: number,
     color: string,
     status: boolean,
-    buyValue: number
+    buyValue: number,
   ) {
     this.id = id;
     this.model = model;

@@ -1,4 +1,4 @@
-import IAutomobile from "./IAutomobile";
+import IAutomobile from './IAutomobile';
 
 export default interface ICar extends IAutomobile {
   doorsQty: number;
