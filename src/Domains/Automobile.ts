@@ -1,10 +1,10 @@
 export default class Automobile {
-  id: string;
-  model: string;
-  year: number;
-  color: string;
-  status: boolean;
-  buyValue: number;
+  protected id: string;
+  protected model: string;
+  protected year: number;
+  protected color: string;
+  protected status: boolean;
+  protected buyValue: number;
 
   constructor(
     id: string,

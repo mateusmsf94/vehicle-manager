@@ -1,8 +1,8 @@
 import Automobile from "./Automobile";
 
 export default class Car extends Automobile {
-  doorsQty: number;
-  seatQty: number;
+  private doorsQty: number;
+  private seatsQty: number;
 
   constructor(
     id: string,
@@ -12,10 +12,10 @@ export default class Car extends Automobile {
     status: boolean,
     buyValue: number,
     doorsQty: number,
-    seatQty: number
+    seatsQty: number
   ) {
     super(id, model, year, color, status, buyValue);
     this.doorsQty = doorsQty;
-    this.seatQty = seatQty;
+    this.seatsQty = seatsQty;
   }
 }
