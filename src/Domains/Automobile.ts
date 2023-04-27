@@ -1,5 +1,5 @@
-export default class Automobile {
-  protected id: string;
+export default abstract class Automobile {
+  protected id?: string;
   protected model: string;
   protected year: number;
   protected color: string;
@@ -7,7 +7,7 @@ export default class Automobile {
   protected buyValue: number;
 
   constructor(
-    id: string,
+    id: string | undefined,
     model: string,
     year: number,
     color: string,
