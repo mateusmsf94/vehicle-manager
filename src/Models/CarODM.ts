@@ -12,6 +12,10 @@ class CarODM extends AbstractODM<ICar> {
       buyValue: { type: Number, required: true },
       doorsQty: { type: Number, required: true },
       seatsQty: { type: Number, required: true },
+    }, { toJSON: { virtuals: true } });
+
+    schema.virtual('id').get(function (this: any) {
+      return this._id;
     });
     super(schema, 'Car');
   }
