@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import IMotocycle from '../Interfaces/IMotorcycle';
-import MotocycleService from '../Services/MotocycleService';
+import MotocycleService from '../Services/MotorcycleService';
 
 class MotocycleController {
   private motocycleService: MotocycleService;
